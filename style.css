@@ -1,0 +1,59 @@
+body {
+    font-family: "Proxima Nova", Arial, sans-serif;
+    background-color: rgb(248, 249, 249);
+
+  }
+  .pricing-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+  }
+  .pricing-plan{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    flex-basis: 300px;
+    text-align: center;
+  }
+  .plan-features{
+    padding:0;
+  }
+  .plan-title{
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .plan-price{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  ul{
+    list-style-type: none;
+    
+  }
+  .plan-button{
+    background-color: rgb(222, 226, 226);
+    border-radius: 20px;
+    border-width: 0;
+    width: 100px;
+    height: 50px;
+    background-clip: border-box;
+    box-shadow:rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  }
+
+  @media (max-width: 1250px) {
+
+    .pricing-container{
+      flex-direction: column;
+    }
+    .pricing-plan{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+    width: 300px;
+    flex-basis: 200px;
+    text-align: center;
+    background-clip: border-box;
+    box-shadow:rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  }
+  }
