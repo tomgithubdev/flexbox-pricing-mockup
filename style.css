@@ -8,6 +8,8 @@ body {
     justify-content: center;
     align-items: center;
     gap:20px;
+    justify-content: center;
+    height: 100vh;
   }
   .pricing-plan{
     background-color: rgb(255, 255, 255);
